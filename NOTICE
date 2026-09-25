@@ -1,0 +1,8 @@
+Mica v0.1 4B
+Copyright 2026 akivet
+
+This model is a fine-tune of Qwen/Qwen3.5-4B (revision 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a),
+Copyright Alibaba Cloud, licensed under the Apache License 2.0.
+
+The serving runtime binds to llama.cpp (https://github.com/ggml-org/llama.cpp, tag b11010),
+Copyright The ggml authors, licensed under the MIT License. llama.cpp is built by the user and is not redistributed here.

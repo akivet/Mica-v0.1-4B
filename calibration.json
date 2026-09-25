@@ -1,0 +1,5 @@
+{
+ "temperature": 1.124473,
+ "fitted_on": "Mica nd_calib: 1,402 rows from our own held-out calibration split; no JevBench item",
+ "method": "one global temperature fitted by NLL"
+}
