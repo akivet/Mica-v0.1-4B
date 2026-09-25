@@ -12,6 +12,10 @@ and Korean.
   safetensors and GGUF in BF16, Q8_0, Q6_K, Q5_K_M, Q4_K_M and Q4_0
 - License: Apache-2.0 (see `NOTICE`)
 
+<p align="center">
+  <img src="assets/accuracy.png" alt="Decision accuracy of Mica v0.1 4B against JEV 1.13, Qwen3.5-4B, JevK5 4B, Kev 4B, Nimble 9B and Laya on six sets" width="100%">
+</p>
+
 ## Quick start
 
 With Docker:
@@ -107,6 +111,10 @@ Calibration on the held-out set: ECE 5.4 %, and 2.5 % of answers are wrong with 
 (JEV: 3.8 % and 2.0 %). Full metrics are in `results/all_metrics.md`.
 
 ### Latency
+
+<p align="center">
+  <img src="assets/latency.png" alt="Median latency per decision on one RTX 3090: Laya 30 ms, Mica Q4_K_M 47 ms, Mica BF16 54 ms, Kev 4B 76 ms, JevK5 4B 99 ms, Nimble 9B 132 ms" width="100%">
+</p>
 
 RTX 3090, one request at a time, JevBench public items:
 
