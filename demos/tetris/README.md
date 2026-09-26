@@ -6,8 +6,10 @@ speaks TypeSafe `/v1/systemone` can play, and so can any Python function you plu
 
 | Mica vs Kev 4B (seed 11) | Mica vs Laya (seed 11) |
 |:--:|:--:|
-| [![Mica vs Kev](videos/mica_vs_kev.jpg)](videos/mica_vs_kev.mp4) | [![Mica vs Laya](videos/mica_vs_laya.jpg)](videos/mica_vs_laya.mp4) |
+| [![Mica vs Kev](videos/mica_vs_kev.gif)](https://github.com/akivet/Mica-v0.1-4B/raw/main/demos/tetris/videos/mica_vs_kev.mp4) | [![Mica vs Laya](videos/mica_vs_laya.gif)](https://github.com/akivet/Mica-v0.1-4B/raw/main/demos/tetris/videos/mica_vs_laya.mp4) |
 | Kev tops out at piece 86 with 17 lines. Mica is at 37 and still going. | Laya tops out at piece 59 with 8 lines. |
+
+<sub>8-second previews; click for the full 1080p60 video (MP4 download).</sub>
 
 ## Results
 

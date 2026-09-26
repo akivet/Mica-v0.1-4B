@@ -146,7 +146,7 @@ Q5_K_M is a good choice for an 8 GB GPU.
 ## Demo: Tetris, Mica vs N
 
 <p align="center">
-  <a href="demos/tetris/videos/mica_vs_kev.mp4"><img src="demos/tetris/videos/mica_vs_kev.jpg" alt="Mica vs Kev 4B playing the same Tetris game" width="100%"></a>
+  <a href="demos/tetris"><img src="demos/tetris/videos/mica_vs_kev.gif" alt="Mica vs Kev 4B playing the same Tetris game" width="100%"></a>
 </p>
 
 Mica, Kev 4B and Laya played the same Tetris-style games (same seed, same pieces, same options every move). On the
