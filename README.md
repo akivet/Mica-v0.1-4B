@@ -143,6 +143,17 @@ On our 1,402-item calibration set, through the same server on an RTX 3090:
 
 Q5_K_M is a good choice for an 8 GB GPU.
 
+## Demo: Tetris, Mica vs N
+
+<p align="center">
+  <a href="demos/tetris/videos/mica_vs_kev.mp4"><img src="demos/tetris/videos/mica_vs_kev.jpg" alt="Mica vs Kev 4B playing the same Tetris game" width="100%"></a>
+</p>
+
+Mica, Kev 4B and Laya played the same Tetris-style games (same seed, same pieces, same options every move). On the
+easy setting Mica cleared 223 lines over three seeds against 55 for Kev and 17 for Laya, and got through all 250
+pieces on two of them. The harness, logs and video renderer are in [`demos/tetris`](demos/tetris): point it at any
+`/v1/systemone` server or Python function and run your own model against Mica.
+
 ## How it works
 
 The model is Qwen3.5-4B unchanged in shape: 32 layers, 24 of them Gated DeltaNet and 8 full attention. A LoRA of rank
